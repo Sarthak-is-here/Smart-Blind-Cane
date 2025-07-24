@@ -1,4 +1,4 @@
-# Smart Walking Stick with GPS Location (Smart Blind Cane)
+# Smart Walking Stick with GPS Location (Way Finder)
 
 ## What Is This?
 
