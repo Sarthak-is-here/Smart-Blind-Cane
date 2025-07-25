@@ -6,7 +6,6 @@ It is a smart walking stick that assists persons who are blind or have poor eyes
 
 - It senses obstacles ahead of the user.  
 - It beeps to alert the user if an object is too near.  
-- It provides the location of the user as a text message when a button is clicked.
 
 ---
 
@@ -14,10 +13,8 @@ It is a smart walking stick that assists persons who are blind or have poor eyes
 
 Rechargeable batteries are used by the project:
 
-- Two batteries power the main controller (Arduino).  
-- A battery powers the portion that sends the text message (GSM module).  
-- The GPS is powered directly off the main board.
-
+- Two batteries power the main controller (Arduino).
+- 
 ---
 
 ## What Parts Are Used?
@@ -27,21 +24,6 @@ Rechargeable batteries are used by the project:
 | Arduino Uno       | The main controller that executes the program |
 | Ultrasonic Sensor | Detects an object's proximity            |
 | Buzzer            | Beeps when an object is too close        |
-| GPS Module        | Finds the user's location                |
-| GSM Module        | Sends the location as a text message (SMS) |
-| Push Button       | Sends the SMS when pressed               |
-
----
-
-## Other Small Components
-
-| Part       | Why It's Needed                               |
-|------------|-----------------------------------------------|
-| Transistor | Ensures the buzzer is turned on and off safely |
-| Resistors  | Regulate electricity flow                      |
-| Diodes     | Prevent damage to the circuit                  |
-| Capacitors | Ensure stable power to the GSM portion         |
-| Wires      | Bridges everything together                    |
 
 ---
 
@@ -49,17 +31,12 @@ Rechargeable batteries are used by the project:
 
 - The stick "looks ahead" with distance-measuring sensors.  
 - If there's something near, it emits a beep to let the user know.  
-- If the user requires assistance, they push a button on the stick.  
-- The GPS determines their location.  
-- The GSM module transmits that location as a text message to a caregiver or family member.
 
 ---
 
 ## Why It's Helpful
 
 - Prevents individuals from walking into objects.  
-- Transmits location in the event of an emergency.  
-- Functions without internet or Wi-Fi—only requires cellular signal.  
 - Is small, battery-operated, and portable.
 
 ---
